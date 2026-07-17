@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Debabrata Dutta — CS Student & Marketing Head</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <div class="nav-logo">DEB.</div>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#work">Work</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button class="nav-toggle" id="navToggle" aria-label="Open menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero-content">
+
+      <!-- 📸 PHOTO — replace src with your actual photo path e.g. src="photo.jpg" -->
+      <div class="hero-photo-wrap">
+        <img
+          src="profile.png"
+          alt="Debabrata Dutta"
+          class="hero-photo"
+          id="profilePhoto"
+        />
+        <!-- To use your own photo: save it in the same folder as index.html,
+             then change the src above to your filename, e.g. src="debabrata.jpg" -->
+      </div>
+
+      <p class="hero-greeting">Hey, I'm Debabrata Dutta</p>
+      <h1 class="hero-title">
+        B-Tech Student | Tech and Consultancy | Marketing Head<br>
+        <!-- <span class="highlight">Strategy enthusiast.</span> -->
+      </h1>
+      <p class="hero-bio">
+        Second-year BTech student who loves sitting at the intersection
+        of tech, business, and people. Currently heading marketing at
+        <strong>Mediarca</strong> — a healthcare startup — while actively
+        exploring consulting, case competitions, and what it takes to build
+        something people actually care about.
+      </p>
+
+      <div class="hero-buttons">
+        <a href="#work" class="btn-main">See my work</a>
+        <a href="#contact" class="btn-outline">Say hello</a>
+      </div>
+
+      <!-- SOCIAL LINKS — replace # with your actual URLs -->
+      <div class="social-links">
+        <a href="https://www.linkedin.com/in/debabrata-dutta-52854038a/" target="_blank" class="social-btn" title="LinkedIn">
+          <!-- LinkedIn icon -->
+          <svg xmlns="https://www.linkedin.com/in/debabrata-dutta-52854038a/" width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+          </svg>
+          LinkedIn
+        </a>
+        <a href="https://github.com/Its2Dev" target="_blank" class="social-btn" title="GitHub">
+          <!-- GitHub icon -->
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+          </svg>
+          GitHub
+        </a>
+        <a href="mailto:YOUR@EMAIL.com" class="social-btn" title="Email">
+          <!-- Email icon -->
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+            <polyline points="22,6 12,12 2,6"></polyline>
+          </svg>
+          Email
+        </a>
+        <!-- Optional: Twitter/X -->
+        <a href="https://twitter.com/YOUR-USERNAME" target="_blank" class="social-btn" title="Twitter / X">
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.737-8.835L1.254 2.25H8.08l4.26 5.632 5.904-5.632zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+          </svg>
+          Twitter
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section bg-alt">
+    <div class="container">
+      <p class="section-label">About me</p>
+      <div class="about-layout">
+        <div class="about-photo-col">
+          <!-- 📸 SECOND PHOTO SPOT — a more casual/candid photo works great here -->
+          <div class="about-photo-wrap">
+            <img
+              src="IMG_20260624_193606.jpg.jpeg"
+              alt="Debabrata Dutta"
+              class="about-photo"
+            />
+            <!-- Replace src with your photo, e.g. src="debabrata-casual.jpg" -->
+            <div class="about-photo-tag">Rourkela, Odisha </div>
+          </div>
+        </div>
+        <div class="about-text-col">
+          <h2 class="section-title">A bit about me</h2>
+          <p>
+            I'm a second-year BTech student who somehow ended up running marketing for a healthcare
+            startup before writing a full-stack app — and honestly, I think that's pretty cool.
+          </p>
+          <p>
+            At <strong>Mediarca</strong>, I lead marketing — building the brand, handling social strategy,
+            and making sure the right people know about a platform that genuinely helps patients.
+            It's taught me more about people and communication than any textbook could.
+          </p>
+          <p>
+            On the side, I've competed in case competitions across FMCG, fintech, and AI strategy
+            domains. I really enjoy breaking down complex business problems and structuring clear
+            thinking — which is why consulting genuinely excites me as a path forward.
+          </p>
+          <p>
+            I love to act for both the screen and the stages,I have worked in 3 short films and working
+            actively in my college's official Drama Club and Cinematics Club.
+          </p>
+          <p>
+            I read about psychology, follow business strategy, and think too much
+            about why people make the decisions they do. If you're working on something interesting,
+            I'd love to hear about it.
+          </p>
+          <p>
+            Outside all this,I am a certified cinephile love to watch all kind of movies where the story is more important
+            than just entertainment and love to study the characters as well.Some of my personal picks are 
+            "Anatomy of a Fall", "The Godfather", "The Master", "Oppenheimer", "Piku" & "Premalu"
+          </p>
+          <p>
+            And I am trying to belive that "Life is coming from you not at you."
+          </p>
+          <div class="about-facts">
+            <div class="fact-item">
+              <span class="fact-icon"></span>
+              <span>BTech — SOPHOMORE</span>
+            </div>
+            <div class="fact-item">
+              <span class="fact-icon"></span>
+              <span>Marketing Head at Mediarca</span>
+            </div>
+            <div class="fact-item">
+              <span class="fact-icon"></span>
+              <span>Case competition participant</span>
+            </div>
+            <div class="fact-item">
+              <span class="fact-icon"></span>
+              <span>Aspiring consultant</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section">
+    <div class="container">
+      <p class="section-label">What I know</p>
+      <h2 class="section-title">Skills & Interests</h2>
+
+      <div class="skills-grid">
+        <div class="skill-block">
+          <h3>Tech</h3>
+          <div class="tag-group">
+            <span class="tag">HTML / CSS</span>
+            <span class="tag">JavaScript</span>
+            <span class="tag">Python</span>
+            <span class="tag">C++</span>
+            <span class="tag">Git & GitHub</span>
+            <span class="tag">React (learning)</span>
+            <span class="tag">EXCEL</span>
+          </div>
+        </div>
+        <div class="skill-block">
+          <h3>Marketing</h3>
+          <div class="tag-group">
+            <span class="tag">Social Media Strategy</span>
+            <span class="tag">Content Creation</span>
+            <span class="tag">Brand Building</span>
+            <span class="tag">Campaign Planning</span>
+            <span class="tag">Community Growth</span>
+          </div>
+        </div>
+        <div class="skill-block">
+          <h3>Business & Strategy</h3>
+          <div class="tag-group">
+            <span class="tag">Case Analysis</span>
+            <span class="tag">Market Sizing</span>
+            <span class="tag">GTM Strategy</span>
+            <span class="tag">Business Analysis</span>
+            <span class="tag">Structured Problem Solving</span>
+          </div>
+        </div>
+        <div class="skill-block">
+          <h3>Personal Interests</h3>
+          <div class="tag-group">
+            <span class="tag">Consulting</span>
+            <span class="tag">Psychology</span>
+            <span class="tag">Healthcare Tech</span>
+            <span class="tag">Startups</span>
+            <span class="tag">OTT & Media</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WORK / EXPERIENCE -->
+  <section id="work" class="section bg-alt">
+    <div class="container">
+      <p class="section-label">What I've done</p>
+      <h2 class="section-title">Work & Projects</h2>
+
+      <div class="work-grid">
+
+        <!-- MAIN ROLE -->
+        <div class="work-card work-card-featured">
+          <div class="work-card-top">
+            <span class="work-type">Current Role</span>
+            <span class="work-status live">Active</span>
+          </div>
+          <h3>Marketing Head — Mediarca</h3>
+          <p>
+            Leading all marketing efforts for a growing healthcare startup. Mediarca helps patients
+            book appointments online, store medical records securely, and get AI-powered insights
+            from reports and prescriptions.
+          </p>
+          <p>
+            My work here covers social media strategy across LinkedIn, Instagram, and Reddit;
+            building the content calendar; writing campaign copy; and growing community presence
+            from scratch.
+          </p>
+          <div class="work-tags">
+            <span>Social Media</span>
+            <span>Content Strategy</span>
+            <span>Healthcare</span>
+            <span>Brand Building</span>
+          </div>
+        </div>
+
+        <!-- CASE COMP 1 -->
+        <div class="work-card">
+          <div class="work-card-top">
+            <span class="work-type">Certification</span>
+            <span class="work-status">Digital Transformation</span>
+          </div>
+          <h3>BCG Digital Transformation</h3>
+          <p>
+            I worked on a project to develop a new app to help a hypothetical client, CoffeeCo, combat declining sales. I conducted market research, learned about customer journeys and pain points to inform product features, 
+            and built my presentation and project management skills in a real-world context.
+          </p>
+          <div class="work-tags">
+            <span>AGILE METHODOLOGY</span>
+            <span>BUSINESS JUDGMENT</span>
+            <span>PROJECT MANAGEMENT</span>
+          </div>
+        </div>
+
+        <!-- CASE COMP 2 -->
+        <div class="work-card">
+          <div class="work-card-top">
+            <span class="work-type">Case Competition</span>
+            <span class="work-status">FMCG</span>
+          </div>
+          <h3>Vedora Oral Care — India GTM</h3>
+          <p>
+            Built a go-to-market strategy for an oral care brand entering India. Covered
+            TAM/SAM/SOM market sizing, quick commerce channel strategy, and competitor
+            benchmarking against Listerine, Sensodyne, and Colgate.
+          </p>
+          <div class="work-tags">
+            <span>FMCG</span>
+            <span>Market Sizing</span>
+            <span>GTM Strategy</span>
+          </div>
+        </div>
+
+        <!-- THIS PORTFOLIO -->
+        <div class="work-card">
+          <div class="work-card-top">
+            <span class="work-type">Personal Project</span>
+            <span class="work-status live">First dev project!</span>
+          </div>
+          <h3>This Portfolio Website</h3>
+          <p>
+            My very first development project — built entirely from scratch with plain
+            HTML, CSS, and JavaScript. Designed and coded it myself, which honestly
+            felt like a proper milestone.
+          </p>
+          <div class="work-tags">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+            <span>Responsive Design</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section">
+    <div class="container">
+      <p class="section-label">Get in touch</p>
+      <div class="contact-layout">
+        <div class="contact-text">
+          <h2 class="section-title">Let's talk.</h2>
+          <p>
+            If you want to talk consulting, collaborate on something, discuss a case,
+            or just connect — reach out. I'm always up for a good conversation.
+          </p>
+          <p class="contact-note">
+            
+          </p>
+        </div>
+        <div class="contact-links-col">
+          <!-- Replace all # and YOUR- placeholders with real links -->
+          <a href="https://www.linkedin.com/in/debabrata-dutta-52854038a/" target="_blank" class="contact-link-item">
+            <div class="contact-link-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+              </svg>
+            </div>
+            <div>
+              <div class="contact-link-title">LinkedIn</div>
+              <div class="contact-link-sub">linkedin.com/in/Debabrata Dutta</div>
+            </div>
+            <span class="contact-arrow">→</span>
+          </a>
+
+          <a href="mailto:debabratadutta579@gmail.com" class="contact-link-item">
+            <div class="contact-link-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                <polyline points="22,6 12,12 2,6"></polyline>
+              </svg>
+            </div>
+            <div>
+              <div class="contact-link-title">Email</div>
+              <div class="contact-link-sub">debabratadutta579@gmail.com</div>
+            </div>
+            <span class="contact-arrow">→</span>
+          </a>
+
+          <a href="https://github.com/Its2Dev" target="_blank" class="contact-link-item">
+            <div class="contact-link-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+              </svg>
+            </div>
+            <div>
+              <div class="contact-link-title">GitHub</div>
+              <div class="contact-link-sub">github.com/Its2Dev</div>
+            </div>
+            <span class="contact-arrow">→</span>
+          </a>
+
+          <a href="https://twitter.com/" target="_blank" class="contact-link-item">
+            <div class="contact-link-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.737-8.835L1.254 2.25H8.08l4.26 5.632 5.904-5.632zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+              </svg>
+            </div>
+            <div>
+              <div class="contact-link-title">Twitter / X</div>
+              <div class="contact-link-sub">Will Update Soon</div>
+            </div>
+            <span class="contact-arrow">→</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container footer-inner">
+      <p>Built by Debabrata Dutta &mdash; my first website &mdash; <span id="year"></span></p>
+      <p class="footer-right"></p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

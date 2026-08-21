@@ -1,6 +1,4 @@
-/* =========================================
-   TOKENS
-   ========================================= */
+
 :root {
   --bg:         #09090f;
   --bg-alt:     #111118;
@@ -48,9 +46,7 @@ ul {
   list-style: none;
 }
 
-/* =========================================
-   LAYOUT HELPERS
-   ========================================= */
+
 .container {
   max-width: 1060px;
   margin: 0 auto;
@@ -278,9 +274,7 @@ nav.scrolled {
   background: var(--amber-soft);
 }
 
-/* =========================================
-   ABOUT
-   ========================================= */
+
 .about-layout {
   display: grid;
   grid-template-columns: 260px 1fr;
@@ -347,9 +341,7 @@ nav.scrolled {
   font-size: 1rem;
 }
 
-/* =========================================
-   SKILLS
-   ========================================= */
+
 .skills-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -389,9 +381,7 @@ nav.scrolled {
   color: var(--amber);
 }
 
-/* =========================================
-   WORK / PROJECTS
-   ========================================= */
+
 .work-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -476,9 +466,7 @@ nav.scrolled {
   color: var(--amber);
 }
 
-/* =========================================
-   CONTACT
-   ========================================= */
+
 .contact-layout {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -556,9 +544,7 @@ nav.scrolled {
   transform: translateX(3px);
 }
 
-/* =========================================
-   FOOTER
-   ========================================= */
+
 footer {
   border-top: 1px solid var(--border);
   padding: 32px 0;
@@ -577,9 +563,7 @@ footer p {
   color: var(--text-muted);
 }
 
-/* =========================================
-   RESPONSIVE
-   ========================================= */
+
 @media (max-width: 820px) {
   .about-layout {
     grid-template-columns: 1fr;

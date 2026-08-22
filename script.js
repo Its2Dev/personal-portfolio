@@ -7,22 +7,9 @@ window.addEventListener('scroll', () => {
   navbar.classList.toggle('scrolled', window.scrollY > 30);
 }, { passive: true });
 
-// ── Mobile menu toggle
 const navToggle = document.getElementById('navToggle');
 const navLinks  = document.getElementById('navLinks');
 
-navToggle.addEventListener('click', () => {
-  const isOpen = navLinks.classList.toggle('open');
-  // animate the burger icon
-  const spans = navToggle.querySelectorAll('span');
-  if (isOpen) {
-    spans[0].style.transform = 'rotate(45deg) translate(5px, 5px)';
-    spans[1].style.opacity   = '0';
-    spans[2].style.transform = 'rotate(-45deg) translate(5px, -5px)';
-  } else {
-    spans.forEach(s => (s.style.transform = s.style.opacity = ''));
-  }
-});
 
 // close menu when a link is clicked
 navLinks.querySelectorAll('a').forEach(link => {
